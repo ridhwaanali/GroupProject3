@@ -9,7 +9,7 @@ def home():
     return render_template("Home.html")
 
 
-app.register_blueprint(lines, url_prefix="/linesÍ")
+app.register_blueprint(lines, url_prefix="/lines")
 app.register_blueprint(scatters, url_prefix="/scatters")
 app.register_blueprint(bars, url_prefix="/Bars")
 
